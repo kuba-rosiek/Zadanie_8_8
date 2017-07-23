@@ -5,6 +5,6 @@ var maleNames = ['Piotrek', 'Marek', 'Arek', 'Jarek'];
 var arr = allNames.concat(femaleNames,maleNames);
 var newName = 'Marian'
 	if (allNames.indexOf(newName) === -1) {
-    		allNames.push('newName'); 
+    	allNames.push('newName'); 
 	};
-console.log(arr);
+console.log(allNames);
